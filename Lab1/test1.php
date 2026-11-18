@@ -18,12 +18,17 @@
 
 
 //c
-define("HOST","localhost<br>");
-define("DATABASE","qlsinhvien<br>");
-define("USERNAME","root<br>");
-define("PASSWORD","<br>");
-echo HOST;
-echo DATABASE;
-echo USERNAME;
-echo PASSWORD;
+// define("HOST","localhost<br>");
+// define("DATABASE","qlsinhvien<br>");
+// define("USERNAME","root<br>");
+// define("PASSWORD","<br>");
+// echo HOST;
+// echo DATABASE;
+// echo USERNAME;
+// echo PASSWORD;
+
+
+$ten="Hoai";
+echo"Ten: $ten<br>";
+echo'Ten: $ten<br>';
 ?>
