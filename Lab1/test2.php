@@ -58,12 +58,35 @@
 // //mb_strlen() se bo qua ky tu co dau
 
 
-//6
-$chuoivanban="Tran Thanh Hoai hoc lap trinh web";
-echo"Chuyen chuoi thanh in hoa: ".strtoupper($chuoivanban)."<br>";
-echo"Chuyen chuoi thanh chu thuong: ".strtolower($chuoivanban)."<br>";
-$chuoivanbancodau="Trần Thanh Hoài học lập trình web";
-echo"Chuyen chuoi thanh in hoa: ".mb_strtoupper($chuoivanbancodau)."<br>";
-echo"Chuyen chuoi thanh chu thuong: ".mb_strtolower($chuoivanbancodau)."<br>";
+// //6
+// $chuoivanban="Tran Thanh Hoai hoc lap trinh web";
+// echo"Chuyen chuoi thanh in hoa: ".strtoupper($chuoivanban)."<br>";
+// echo"Chuyen chuoi thanh chu thuong: ".strtolower($chuoivanban)."<br>";
+// $chuoivanbancodau="Trần Thanh Hoài học lập trình web";
+// echo"Chuyen chuoi thanh in hoa: ".mb_strtoupper($chuoivanbancodau)."<br>";
+// echo"Chuyen chuoi thanh chu thuong: ".mb_strtolower($chuoivanbancodau)."<br>";
+// /*  strtoupper() và strtolower() không hỗ trợ gõ có dâu còn mb_strtoupper() và mb_strtolower() thì có hỗ trợ gõ có dấu */
+
+
+// //7
+// $epchuoi1="123 abc";
+// $saukhiepkieu1=(int)$epchuoi1;
+// $epchuoi2="abc 123";
+// $saukhiepkieu2=(int)$epchuoi2;
+// echo"Chuỗi trước khi ép kiểu: $epchuoi1";
+// echo" Và sau khi ép kiểu: ";
+// echo var_dump($saukhiepkieu1)."<br>";
+// echo"Chuỗi trước khi ép kiểu: $epchuoi2";
+// echo" Và sau khi ép kiểu: ";
+// echo var_dump($saukhiepkieu2);
+
+
+//8
+// $KieuDLint=9;
+// $KieuDLfloat=9.9;
+// $KieuDLstring="Tran Thanh Hoai";
+// echo var_dump($KieuDLint)."<br>";
+// echo var_dump($KieuDLfloat)."<br>";
+// echo var_dump($KieuDLstring)."<br>";
 
 ?>
